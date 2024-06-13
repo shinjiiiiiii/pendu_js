@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Pendu" content="Le pendu">
+    <link rel="stylesheet" href="style.scss">
+    <title>Pendu</title>
+</head>
+<body>
+    <div>
+        <h1>Jeu du pendu</h1>
+        <p>Entrez une lettre grâce au clavier ci-dessous : elle est dans le mot
+            secret elle sera affichée mais sinon... la sentence se rapprochera!
+        </p>
+        <div id="choose_letter">
+
+        </div>
+        <input type="button" OnClick="javascript:window.location.reload()" value="nouvelle partie">
+        
+        <select id="select">
+            <option value="Changer la difficulter" disabled selected>choisir une difficulter</option>
+            <option value="Facile" id="Facile">Facile</option>
+            <option value="Moyen" id="Moyen">Moyen</option>
+            <option value="Difficile" id="Moyen">Difficile</option>
+        </select>
+        <div id="resultat">
+
+        </div>
+    </div>
+    <div id="img_pendu">
+        <img alt="un pendu" id="image_du_pendu">
+    </div>
+    <script src="app.js" type="module"></script>
+</body>
+</html>

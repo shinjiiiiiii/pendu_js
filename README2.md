@@ -1,0 +1,2 @@
+Voici mon pendu
+Le systeme de niveau est fait avec un random de 0 a 2 pour le facile et de 0 a 4 pour le moyen donc moin de chance d'avoir des lettres bonnus pour le moyen **on peut ne pas en avoir comme tout avoir*
